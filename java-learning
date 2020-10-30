@@ -1,0 +1,145 @@
+
+
+
+
+primitive types(fixed):
+array == primitive data types (int, float, string, char..,,,)
+
+data structures (they are flexible and expandable)
+arraylist == it stores objects
+tuple
+
+
+arra=
+1) is my size fixed/dynamic
+2) is it storing objects/primitive data types
+
+
+100 int numbers
+eg.
+array[int]
+
+
+
+arraylist -- dynamic
+array  --- static/fixed
+
+
+
+
+
+
+
+
+
+
+
+
+
+array is defined as, storage of contiguous space
+
+in a class there will be only 60 students, whose names are unknown right now.
+but will need to store them in a data structure. how do you do it ?
+
+Ans: String[] students = String[60];
+
+
+String[] students ={"nagesh","kasturi","tejswni","ramesh","nagesh"}
+
+accessing elements:
+students[2] ==> tejswni
+students[1] ==> kasturi
+
+students[45] ==> ??? error
+
+adding:
+students[3] = "ramesh";
+
+students[3] ==> ramesh
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+students[59]="kamesh"
+
+students.size()==> 60
+
+students[60]="babu"
+students[60]== ?? error oversize
+
+
+
+dynamic nature datastructure:
+
+ArrayList
+
+
+Array     : String[] students = String[60];
+ArrayList : ArrayList<String> cars = new ArrayList<String>();
+
+
+
+Class ArrayList
+{
+
+
+public void show()
+{}
+
+
+}
+
+College c = new College()
+c.show()
+
+
+ArrayList <arrlst>= new ArrayList();
+
+
+int/float/double marks ----> int,float
+
+<T> marks -- generic type
+
+
+
+list type
+
+Java/scala:
+for (String i : cars)
+{
+  System.out.println(i);
+}
+
+
+python:
+for i in cars:
+  print i
+
+
+
+
+List   ---> [] it stores duplicate values
+Set    ---> () it stores unique values
+Map    ---> {} key, value pair, its a dictionary
+
+            key->values
+            word --> value
+            key is alwaysssss unique/distinct/different
+            value can be duplicate
+            key:value, key2:value2,
+
+
+ArrayList
+LinkedList
+DoubleLinkedList
+
+
+
+
